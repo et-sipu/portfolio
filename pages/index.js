@@ -26,7 +26,7 @@ export default function Home() {
               <div className='col-span-3 text-xl font-bold'>CONTACT</div>
               <div className='col-span-1'>Phone</div><div className='col-span-2'><Link className='hover:font-bold' href={'https://wa.me/0133577994'} >0133577994</Link></div>
               <div className='col-span-1'>Email</div><div className='col-span-2'><Link className='hover:font-bold' href={'mailto:syahidnorazman@gmail.com'} >syahidnorazman@gmail.com</Link></div>
-              <div className='col-span-1'>Address</div><div className='col-span-2'>No. 24, Jalan Delta 8/17, Seksyen 8, 4000, Shah Alam, Selangor</div>
+              <div className='col-span-1'>Address</div><div className='col-span-2 hover:font-bold cursor-pointer'>No. 24, Jalan Delta 8/17, Seksyen 8, 4000, Shah Alam, Selangor</div>
               <div className='col-span-1'>Git</div><div className='col-span-2'><Link className='hover:font-bold' href={'https://github.com/et-sipu'} >@et-sipu</Link> / <Link className='hover:font-bold' href={'https://gitlab.com/syahidnorazman'} >@syahidnorazman</Link> </div>
             </div>
           </div>
@@ -179,6 +179,7 @@ export default function Home() {
                 <p className='font-bold'>JS FRAMEWORKS</p>
                 <ul className="list-disc text-sm pl-4">
                   <li>ReactJS</li>
+                  <li>AngularJS</li>
                   <li>VueJS</li>
                   <li>NextJS</li>
                   <li>NodeJS</li>
