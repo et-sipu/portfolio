@@ -47,12 +47,29 @@ export default function Home() {
           {/*  EXPERIENCE */}
           <div>
             <div className='text-xl font-bold pb-3'>EXPERIENCE<hr className='border-black dark:border-white'/></div>
+            {/*  HITACHI EBWORX SDB BHD */}
+            <Link href={'http://www.hitachi-ebworx.com/'} >
+              <div className='transition ease-in-out delay-50 grid grid-cols-3 pb-3 gap-4 shadow-none hover:shadow-2xl hover:pl-3 hover:scale-105'>
+                <div className='col-span-1'>
+                  <p className='font-bold'>SENIOR MOBILE ENGINEER</p>
+                  <p className='text-sm'>Aug 2022 - Present</p>
+                </div>
+                <div className='col-span-2'>
+                  <p className='font-bold'>HITACHI EBWORX SDB BHD</p>
+                  <ul className="list-disc text-sm pl-4">
+                    <li>Managing client's insurance portal</li>
+                    <li>Uses AngularJS & Springboot Framework</li>
+                    <li>Perform deployment into a Linux based server</li>
+                  </ul>
+                </div>
+              </div>
+            </Link>
             {/*  TIME DOTCOM BERHAD */}
             <Link href={'https://www.time.com.my/'} >
               <div className='transition ease-in-out delay-50 grid grid-cols-3 pb-3 gap-4 shadow-none hover:shadow-2xl hover:pl-3 hover:scale-105'>
                 <div className='col-span-1'>
                   <p className='font-bold'>SOFTWARE DEVELOPER</p>
-                  <p className='text-sm'>Oct 2020 - Present</p>
+                  <p className='text-sm'>Oct 2020 - Aug 2022</p>
                 </div>
                 <div className='col-span-2'>
                   <p className='font-bold'>TIME DOTCOM BERHAD</p>
@@ -64,29 +81,12 @@ export default function Home() {
                 </div>
               </div>
             </Link>
-            {/*  INTEGRATED MARINE WORKS SDN BHD */}
-            <Link href={'http://imwsb.com.my/'} >
-              <div className='transition ease-in-out delay-50 grid grid-cols-3 pb-3 gap-4 shadow-none hover:shadow-2xl hover:pl-3 hover:scale-105'>
-                <div className='col-span-1'>
-                  <p className='font-bold'>IT PROGRAMMER</p>
-                  <p className='text-sm'>Jul 2020 - Oct 2020</p>
-                </div>
-                <div className='col-span-2'>
-                  <p className='font-bold'>INTEGRATED MARINE WORKS SDN BHD</p>
-                  <ul className="list-disc text-sm pl-4">
-                    <li>Develop and maintain Laravel application</li>
-                    <li>Design commercial & corporate websites</li>
-                    <li>IT Support</li>
-                  </ul>
-                </div>
-              </div>
-            </Link>
             {/*  JSOFT SOLUTION SDN BHD */}
             <Link href={'https://jsoftsolution.com.my/'} >
               <div className='transition ease-in-out delay-50 grid grid-cols-3 pb-3 gap-4 shadow-none hover:shadow-2xl hover:pl-3 hover:scale-105'>
                 <div className='col-span-1'>
                   <p className='font-bold'>SOFTWARE ENGINEER</p>
-                  <p className='text-sm'>Feb 2019 - Jul 2020</p>
+                  <p className='text-sm'>Feb 2019 - Oct 2020</p>
                 </div>
                 <div className='col-span-2'>
                   <p className='font-bold'>JSOFT SOLUTION SDN BHD</p>
